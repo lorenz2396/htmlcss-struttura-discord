@@ -18,3 +18,32 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+header{
+    background-color: #add8e6;
+    min-height: 50px;
+}
+
+.row-link{
+    background-color: #daa520;
+    width: 800px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.col-small{
+    width: 25%;
+}
+
+.col-big{
+    width: 50%;
+}
+
+
+/* DEBUG */
+
+.debug header .row-link > *{
+    border: 1px dashed black;
+    height: 30px;
+}
